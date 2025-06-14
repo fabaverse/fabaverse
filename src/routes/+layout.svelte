@@ -2,7 +2,7 @@
 	import '../global.css';
 	import '../app.css';
 </script>
-
+<!-- 🌌 Head section for SEO and metadata -->
 <svelte:head>
 	<title>Fabaverse — Create Your Universe</title>
 	<meta
