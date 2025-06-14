@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Orbitron:wght@600&display=swap');
+
+@layer base {
+  :root {
+    --fab: #6A0DAD;
+    --nebula: #6C2DC7;
+    --starcore: #0F52BA;
+    --aurora: #3FFFA8;
+    --quantum: #FF61A6;
+    --event: #2F2F2F;
+    --starlight: #B2BEC3;
+    --darkmatter: #0A0A0A;
+    --foreground: #e0e0e0;
+    --background: #0f0f1a;
+  }
+
+  html {
+    font-family: 'Open Sans', ui-sans-serif, system-ui;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+
+  h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--fab);
+  }
+
+  .font-heading {
+    font-family: 'Orbitron', sans-serif;
+  }
+}
+
+@layer components {
+  .bg-fab {
+    background-color: var(--fab);
+  }
+
+  .text-quantum {
+    color: var(--quantum);
+  }
+
+  .btn-cta {
+    background-color: var(--fab);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+  }
+}
